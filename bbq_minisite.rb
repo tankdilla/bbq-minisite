@@ -14,3 +14,7 @@ end
 get '/charcoal_basket' do
   haml :charcoal_basket
 end
+
+get '/order' do
+  haml :not_found
+end
